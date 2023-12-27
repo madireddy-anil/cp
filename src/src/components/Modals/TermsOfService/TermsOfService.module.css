@@ -1,0 +1,32 @@
+ol.nest {
+  counter-reset: item;
+  padding-inline-start: 10px;
+}
+ol.nest1 {
+  counter-reset: item;
+  padding-inline-start: 10px;
+}
+ol.nest2 {
+  counter-reset: item;
+  padding-inline-start: 10px;
+}
+ol.nest3 {
+  counter-reset: item;
+  padding-inline-start: 10px;
+}
+li.nest {
+  display: table;
+  counter-increment: item;
+}
+li.nest:before {
+  content: counters(item, ".") ". ";
+  display: table-cell;
+}
+li li.nest:before {
+  content: counters(item, ".") " ";
+}
+.terms-services-title {
+  position: relative;
+  z-index: 1;
+  margin-bottom: -18px;
+}

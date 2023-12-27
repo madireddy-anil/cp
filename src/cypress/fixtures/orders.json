@@ -1,0 +1,174 @@
+{
+  "orders": [
+    {
+      "executionDate": "2021-11-17",
+      "orderReference": "PAY20211117135310EFX",
+      "settlementType": "internal",
+      "beneficiaryName": "",
+      "createdBy": "67277dea-8221-4059-b8f1-8ed89d877fb2",
+      "buyAmount": 15000,
+      "buyCurrency": "THB",
+      "sellCurrency": "USD",
+      "status": "new_client_order",
+      "id": "9b79afd9-93cc-4720-93ee-ee18b2c3b82e",
+      "clientId": "eebf4d1c-7ecf-455a-b292-bfaeb726b574",
+      "clientName": "test company v3",
+      "depositType": "day",
+      "requestedAccountType": "personal",
+      "sellAccountId": "78535d9c-5b67-4997-94b2-135d652219cd",
+      "financials": {
+        "sellAmount": "",
+        "clientAllRate": "",
+        "approvedAt": "",
+        "exchange": {
+          "client": {}
+        }
+      }
+    },
+    {
+      "executionDate": "2022-02-21",
+      "orderReference": "PAY20220221144544EFX",
+      "settlementType": "internal",
+      "beneficiaryName": "",
+      "createdBy": "1e12ee97-c549-4759-b4a9-ce3b50ff6d52",
+      "buyAmount": 3400,
+      "buyCurrency": "THB",
+      "sellCurrency": "USDT",
+      "status": "pending_approval_client",
+      "id": "9f7af395-5703-4cb5-a0d6-35dd7e1de784",
+      "clientId": "eebf4d1c-7ecf-455a-b292-bfaeb726b574",
+      "clientName": "Soundhar Client Company",
+      "depositType": "day",
+      "requestedAccountType": "personal",
+      "sellAccountId": "b5a41b8a-281f-46e9-9f5c-3283a8bcac53",
+      "financials": {
+        "sellAmount": "102.99",
+        "clientAllRate": "0.030291800000",
+        "approvedAt": "2022-02-21T14:46:55.901Z",
+        "exchange": {
+          "client": {
+            "sellAmount": "102.99",
+            "internalRate": "0.030910000000",
+            "rate": "0.030291800000"
+          }
+        }
+      }
+    },
+    {
+      "executionDate": "2022-02-22",
+      "orderReference": "PAY20220222083916EFX",
+      "settlementType": "internal",
+      "beneficiaryName": "",
+      "createdBy": "1e12ee97-c549-4759-b4a9-ce3b50ff6d52",
+      "buyAmount": 2560,
+      "buyCurrency": "THB",
+      "sellCurrency": "USDT",
+      "status": "pending_approval_client",
+      "id": "3c9bc3ee-406f-426f-bb45-b53b470101a8",
+      "clientId": "eebf4d1c-7ecf-455a-b292-bfaeb726b574",
+      "clientName": "Soundhar Client Company",
+      "depositType": "day",
+      "requestedAccountType": "personal",
+      "sellAccountId": "a1509cbb-5998-4e15-a987-9bb49a2fc218",
+      "financials": {
+        "sellAmount": "75.26",
+        "clientAllRate": "0.029400000000",
+        "approvedAt": "2022-02-22T08:40:05.013Z",
+        "exchange": {
+          "client": {
+            "sellAmount": "75.26",
+            "internalRate": "0.030000000000",
+            "rate": "0.029400000000"
+          }
+        }
+      }
+    },
+    {
+      "executionDate": "2022-02-03",
+      "orderReference": "PAY20220203132257EFX",
+      "settlementType": "internal",
+      "beneficiaryName": "",
+      "createdBy": "1e12ee97-c549-4759-b4a9-ce3b50ff6d52",
+      "buyAmount": 10000,
+      "buyCurrency": "THB",
+      "sellCurrency": "USDT",
+      "status": "accepted_by_client",
+      "id": "daf419a7-589b-4585-b848-11b044bdfbd9",
+      "clientId": "eebf4d1c-7ecf-455a-b292-bfaeb726b574",
+      "clientName": "HIRATECH",
+      "depositType": "day",
+      "requestedAccountType": "personal",
+      "sellAccountId": "a1509cbb-5998-4e15-a987-9bb49a2fc218",
+      "financials": {
+        "sellAmount": "303.80",
+        "clientAllRate": "0.030380000000",
+        "approvedAt": "2022-02-03T13:23:52.014Z",
+        "exchange": {
+          "client": {
+            "sellAmount": "303.80",
+            "internalRate": "0.031000000000",
+            "rate": "0.030380000000"
+          }
+        }
+      }
+    },
+    {
+      "executionDate": "2022-02-23",
+      "orderReference": "PAY20220223093215EFX",
+      "settlementType": "external",
+      "beneficiaryName": "",
+      "createdBy": "1e12ee97-c549-4759-b4a9-ce3b50ff6d52",
+      "buyAmount": 1750,
+      "buyCurrency": "THB",
+      "sellCurrency": "USDT",
+      "status": "await_final_settlement",
+      "id": "650c0d98-1306-4cd8-9e47-8917bde6a9e3",
+      "clientId": "eebf4d1c-7ecf-455a-b292-bfaeb726b574",
+      "clientName": "Soundhar Client Company",
+      "depositType": "day",
+      "requestedAccountType": "personal",
+      "beneficiaryId": "60be144c-6d33-46e7-8876-84d10dd7a796",
+      "financials": {
+        "sellAmount": "53.01",
+        "clientAllRate": "0.030291800000",
+        "approvedAt": "2022-02-23T10:34:02.908Z",
+        "exchange": {
+          "client": {
+            "sellAmount": "53.01",
+            "internalRate": "0.030910000000",
+            "rate": "0.030291800000"
+          }
+        }
+      }
+    },
+    {
+      "executionDate": "2022-02-03",
+      "orderReference": "PAY20220203132513EFX",
+      "settlementType": "internal",
+      "beneficiaryName": "",
+      "createdBy": "1e12ee97-c549-4759-b4a9-ce3b50ff6d52",
+      "buyAmount": 9800,
+      "buyCurrency": "THB",
+      "sellCurrency": "USDT",
+      "status": "accepted_by_client",
+      "id": "f3826958-00aa-4081-81de-07e20c077c42",
+      "clientId": "eebf4d1c-7ecf-455a-b292-bfaeb726b574",
+      "clientName": "HIRATECH",
+      "depositType": "day",
+      "requestedAccountType": "personal",
+      "sellAccountId": "b5a41b8a-281f-46e9-9f5c-3283a8bcac53",
+      "financials": {
+        "sellAmount": "7.96",
+        "clientAllRate": "0.000812675913",
+        "approvedAt": "2022-02-03T13:25:45.495Z",
+        "exchange": {
+          "client": {
+            "sellAmount": "7.96",
+            "internalRate": "0.029437740000",
+            "rate": "0.028848985200"
+          }
+        }
+      }
+    }
+  ]
+}

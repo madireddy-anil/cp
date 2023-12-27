@@ -1,0 +1,418 @@
+{
+  "superadmin": [
+    {
+      "label": "General",
+      "value": [
+        "They can view and accept the master service agreement",
+        "They can view the entity’s pricing schedule"
+      ]
+    },
+    {
+      "label": "User management",
+      "value": [
+        "They can view the user management screen",
+        "They can add users to the platform",
+        "They cannot add or assign a Super Admin through the platform",
+        "They can assign an Admin role",
+        "They can assign a Creator role",
+        "They can assign a Viewer role",
+        "They can prompt user actions or remove users"
+      ]
+    },
+    {
+      "label": "Transaction approval rule",
+      "value": [
+        "They can turn the approval rule (approval required toggle) on and off",
+        "They can give and revoke approval entitlement to themselves (Super Admin) and any other user on the platform",
+        "They can set a minimum number of approvers that are needed to approve each payment"
+      ]
+    },
+    {
+      "label": "Accounts",
+      "value": [
+        "They can view Corporate accounts",
+        "They can view Receivable accounts",
+        "They can view eCommerce accounts",
+        "They can create accounts",
+        "They can close an account",
+        "They can download reports (e.g. account statements, transaction confirmations)"
+      ]
+    },
+    {
+      "label": "Payments, conversions & internal transfers:",
+      "value": [
+        "They can create a payment",
+        "They can create a conversion (move funds between accounts to exchange currencies)",
+        "They can create an internal transfer (move funds between accounts of the same currency)",
+        "They can view payment activity",
+        "They can view conversion activity"
+      ]
+    },
+    {
+      "label": "Exotic Foreign Exchange",
+      "value": [
+        "They can view exotic foreign exchange activity",
+        "They can create an exotic foreign exchange order",
+        "They can approve pricing for an exotic foreign exchange order created"
+      ]
+    },
+    {
+      "label": "eCommerce",
+      "value": [
+        "They can view pay ins and pay outs",
+        "They can download reports"
+      ]
+    },
+    {
+      "label": "Receivables",
+      "value": [
+        "They can create a new payment link",
+        "They can view payment link history"
+      ]
+    },
+    {
+      "label": "User-specific",
+      "value": [
+        "They can view and accept user agreement",
+        "They can access and edit their profile settings"
+      ]
+    }
+  ],
+  "admin": [
+    {
+      "label": "General",
+      "value": [
+        "They cannot onboard an entity",
+        "They cannot view and accept the master service agreement",
+        "They can view the entity’s pricing schedule"
+      ]
+    },
+    {
+      "label": "User management",
+      "value": [
+        "They can view the user management screen",
+        "They can add users to the platform",
+        "They cannot add or assign a Super Admin",
+        "They cannot assign an Admin role",
+        " They can assign a Creator role",
+        "They can assign a Viewer role",
+        "They can prompt user actions or remove users"
+      ]
+    },
+    {
+      "label": "Transaction approval rule",
+      "value": [
+        "They cannot turn the approval rule (approval required toggle) on and off",
+        "They can give and revoke approval entitlement to any users",
+        "They can set a minimum number of approvers that are needed to approve each payment"
+      ]
+    },
+    {
+      "label": "Accounts",
+      "value": [
+        "They can view Corporate accounts",
+        "They can view Receivable accounts",
+        "They can view eCommerce accounts",
+        "They can create accounts",
+        "They can close an account",
+        "They can download reports (e.g. account statements, transaction confirmations)"
+      ]
+    },
+    {
+      "label": "Payments, conversions & internal transfers:",
+      "value": [
+        "They can create a payment",
+        "They can create a conversion (move funds between accounts to exchange currencies)",
+        "They can create an internal transfer (move funds between accounts of the same currency)",
+        "They can view payment activity",
+        "They can view conversion activity"
+      ]
+    },
+    {
+      "label": "Exotic Foreign Exchange",
+      "value": [
+        "They can view exotic foreign exchange activity",
+        "They can create an exotic foreign exchange order",
+        "They can approve pricing for an exotic foreign exchange order created"
+      ]
+    },
+    {
+      "label": "eCommerce",
+      "value": [
+        "They can view pay ins and pay outs",
+        "They can download reports"
+      ]
+    },
+    {
+      "label": "Receivables",
+      "value": [
+        "They can create a new payment link",
+        "They can view payment link history"
+      ]
+    },
+    {
+      "label": "User-specific",
+      "value": [
+        "They can view and accept user agreement",
+        "They can access and edit their profile settings"
+      ]
+    }
+  ],
+  "creator": [
+    {
+      "label": "General",
+      "value": [
+        "They cannot onboard an entity",
+        "They cannot view and accept the master service agreement",
+        "They can view the entity’s pricing schedule"
+      ]
+    },
+    {
+      "label": "User management",
+      "value": [
+        "They can view the user management screen",
+        "They cannot add users to the platform",
+        "They cannot add or assign a Super Admin",
+        "They cannot assign an Admin role",
+        "They cannot assign a Creator role",
+        "They cannot assign a Viewer role",
+        "They cannot prompt user actions or remove users"
+      ]
+    },
+    {
+      "label": "Transaction approval rule",
+      "value": [
+        "They cannot turn the approval rule (approval required toggle) on and off",
+        "They cannot give and revoke approval entitlement to any users.",
+        "They cannot set a minimum number of approvers that are needed to approve each payment"
+      ]
+    },
+    {
+      "label": "Accounts",
+      "value": [
+        "They can view Corporate accounts",
+        "They can view Receivable accounts",
+        "They can view eCommerce accounts",
+        "They cannot create accounts",
+        "They cannot close an account",
+        "They can download reports (e.g. account statements, transaction confirmations)"
+      ]
+    },
+    {
+      "label": "Payments, conversions & internal transfers:",
+      "value": [
+        "They can create a payment",
+        "They can create a conversion (move funds between accounts to exchange currencies)",
+        "They can create an internal transfer (move funds between accounts of the same currency)",
+        "They can view payment activity",
+        "They can view conversion activity"
+      ]
+    },
+    {
+      "label": "Exotic Foreign Exchange",
+      "value": [
+        "They can view exotic foreign exchange activity",
+        "They can create an exotic foreign exchange order",
+        " They can approve pricing for an exotic foreign exchange order created"
+      ]
+    },
+    {
+      "label": "eCommerce",
+      "value": [
+        "They can view pay ins and pay outs",
+        "They can download reports"
+      ]
+    },
+    {
+      "label": "Receivables",
+      "value": [
+        "They can create a new payment link",
+        "They can view payment link history"
+      ]
+    },
+    {
+      "label": "User-specific",
+      "value": [
+        "They can view and accept user agreement",
+        "They can access and edit their profile settings"
+      ]
+    }
+  ],
+  "viewer": [
+    {
+      "label": "General",
+      "value": [
+        "They cannot onboard an entity",
+        "They cannot view and accept the master service agreement",
+        "They can view the entity’s pricing schedule"
+      ]
+    },
+    {
+      "label": "User management",
+      "value": [
+        "They can view the user management screen",
+        "They cannot add users to the platform",
+        " They cannot add or assign a Super Admin",
+        "They cannot assign an Admin role",
+        " They cannot assign a Creator role",
+        "They cannot assign a Viewer role",
+        "They cannot prompt user actions or remove users"
+      ]
+    },
+    {
+      "label": "Transaction approval rule",
+      "value": [
+        "They cannot turn the approval rule (approval required toggle) on and off",
+        "They cannot give and revoke approval entitlement to any users",
+        "They cannot set a minimum number of approvers that are needed to approve each payment"
+      ]
+    },
+    {
+      "label": "Accounts",
+      "value": [
+        "They can view Corporate accounts",
+        "They can view Receivable accounts",
+        "They can view eCommerce accounts",
+        "They cannot create accounts",
+        "They cannot close an account",
+        "They cannot make an internal transfer",
+        "They can download reports (e.g. account statements, transaction confirmations)"
+      ]
+    },
+    {
+      "label": "Payments, conversions & internal transfers:",
+      "value": [
+        "They cannot create a payment",
+        "They cannot create a conversion (move funds between accounts to exchange currencies)",
+        "They cannot create an internal transfer (move funds between accounts of the same currency)",
+        "They can view payment activity",
+        "They can view conversion activity"
+      ]
+    },
+    {
+      "label": "Exotic Foreign Exchange",
+      "value": [
+        "They can view exotic foreign exchange activity",
+        "They cannot create an exotic foreign exchange order",
+        "They cannot approve pricing for an exotic foreign exchange order created"
+      ]
+    },
+    {
+      "label": "eCommerce",
+      "value": [
+        "They can view pay ins and pay outs",
+        "They can download reports"
+      ]
+    },
+    {
+      "label": "Receivables",
+      "value": [
+        "They cannot create a new payment link",
+        "They can view payment link history"
+      ]
+    },
+    {
+      "label": "User-specific",
+      "value": [
+        "They can view and accept user agreement",
+        " They can access and edit their profile settings"
+      ]
+    }
+  ],
+  "eCommerceViewer": [
+    {
+      "label": "General",
+      "value": [
+        "They cannot view and accept the master service agreement",
+        "They cannot view the entity’s pricing schedule"
+      ]
+    },
+    {
+      "label": "User management",
+      "value": [
+        "They can view the user management screen",
+        "They cannot add users to the platform",
+        " They cannot add or assign a Super Admin",
+        "They cannot assign an Admin role",
+        " They cannot assign a Creator role",
+        "They cannot assign a Viewer role",
+        "They cannot prompt user actions or remove users"
+      ]
+    },
+    {
+      "label": "Transaction approval rule",
+      "value": [
+        "They cannot turn the approval rule (approval required toggle) on and off",
+        "They cannot give and revoke approval entitlement to any users",
+        "They cannot set a minimum number of approvers that are needed to approve each payment"
+      ]
+    },
+    {
+      "label": "Accounts",
+      "value": [
+        "They cannot create an account",
+        "They cannot view Receivable accounts",
+        "They can view eCommerce accounts",
+        "They cannot create an account",
+        "They cannot close an account",
+        "They cannot download reports (e.g. account statements, transaction confirmations)"
+      ]
+    },
+    {
+      "label": "Payments, conversions & internal transfers:",
+      "value": [
+        "They cannot create a payment",
+        "They cannot create a conversion (move funds between accounts to exchange currencies)",
+        "They cannot create an internal transfer (move funds between accounts of the same currency)",
+        "They cannot view payment activity",
+        "They cannot view conversion activity"
+      ]
+    },
+    {
+      "label": "Exotic Foreign Exchange",
+      "value": [
+        "They cannot view exotic foreign exchange activity",
+        "They cannot create an exotic foreign exchange order",
+        "They cannot approve pricing for an exotic foreign exchange order created"
+      ]
+    },
+    {
+      "label": "eCommerce",
+      "value": [
+        "They can view pay ins and pay outs",
+        "They can download reports"
+      ]
+    },
+    {
+      "label": "Receivables",
+      "value": [
+        "They cannot create a new payment link",
+        "They cannot view payment link history"
+      ]
+    },
+    {
+      "label": "User-specific",
+      "value": [
+        "They can view and accept user agreement",
+        " They can access and edit their profile settings"
+      ]
+    }
+  ],
+  "label": "Transaction approval rule",
+  "subLabel": [
+    {
+      "label": "If granted approver entitlement:",
+      "value": [
+        "They can view the payments approval queue",
+        "They can approve or reject payments"
+      ]
+    },
+    {
+      "label": "If not granted approver entitlement:",
+      "value": [
+        "They can view the payments approval queue",
+        "They cannot approve or reject payments in the approval queue"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+.ant-dropdown-menu {
+  width: 165px;
+}
+.filter__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter__main {
+  margin-top: 20px;
+}
+.filter__footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 18px;
+  padding-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.cancel__filter-btn {
+  margin-right: 14px;
+}
+.user-select [class*="select_ds-select__Opiwm"] {
+  width: none;
+}
+.add__user-checkbox {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 13px;
+}
+.edit__role-checkbox {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 13px;
+}
+.role_subtitle {
+  margin-top: -22px;
+  margin-bottom: 20px;
+}
+.add__newUser-btn {
+  margin: 7px;
+}
+.adduser-err {
+  color: #cc4a5d;
+  font-size: 10px;
+  margin: -40px 0px 19px 0px;
+}

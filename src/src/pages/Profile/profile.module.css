@@ -1,0 +1,14 @@
+.account_settings_card__Wrapper [class*="ant-modal-footer"] {
+  margin-top: -20px;
+}
+
+.account_settings_card__Wrapper
+  [class*="ant-modal-body"]
+  [class*="ant-row"]
+  [class*="ant-form-item"] {
+  height: none !important;
+}
+
+.account_settings_card__Wrapper [class*="ant-input-affix-wrapper"] {
+  height: none !important;
+}

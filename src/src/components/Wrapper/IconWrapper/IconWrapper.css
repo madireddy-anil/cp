@@ -1,0 +1,22 @@
+/* Icon Wrapper*/
+.icon-wrapper {
+  border: 1px solid #e6e6e8;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.icon-wrapper:hover {
+  background: #1c4d73;
+}
+
+.icon-wrapper:hover svg {
+  fill: #ffffff;
+}
+
+.icon-wrapper svg {
+  display: block;
+  margin: auto;
+  padding: 2px;
+}

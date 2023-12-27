@@ -1,0 +1,36 @@
+[class*="ant-dropdown"] > [class*="ant-dropdown-arrow"] {
+  right: 10px;
+}
+
+.antd-btn {
+  min-width: 165px;
+}
+.opt__entity-dropdown {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.ds_notification {
+  position: absolute;
+  background-color: #fc5252;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  width: 10px;
+  height: 10px;
+  margin-left: 40px;
+  z-index: 1;
+  margin-left: 29px;
+}
+
+.menu_approval-title {
+  font-weight: 400;
+  float: left;
+}
+.menu_approval-title-bold {
+  font-weight: 600;
+  float: left;
+}
+.notification_count {
+  float: right;
+  margin: -3px -15px 0 0;
+}

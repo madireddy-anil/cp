@@ -1,0 +1,36 @@
+.pricing-options {
+  display: flex;
+}
+
+.uc-first {
+  text-transform: capitalize !important;
+}
+
+.payments-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid var(--neutral-100);
+  border-radius: 10px;
+  padding: 25px 0px;
+}
+
+.payments-action {
+  text-align: center;
+  cursor: pointer;
+}
+
+.payments-list-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px 25px;
+}
+
+.payments-list-item + .payments-list-item {
+  border-left: 1px solid rgb(227, 232, 240);
+}
+
+.payments-list-item > span:first-child {
+  margin-bottom: 8px;
+}

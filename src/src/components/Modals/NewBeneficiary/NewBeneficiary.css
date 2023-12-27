@@ -1,0 +1,58 @@
+/* Space between fields*/
+.new-beneficiary-modal-wrapper
+  .ant-modal-body
+  .ant-row.ant-form-item
+  + .ant-row.ant-form-item {
+  margin-top: 20px;
+}
+
+.new-beneficiary-modal-wrapper .ant-modal-body .ant-row.ant-form-item {
+  margin-bottom: 0;
+}
+
+.new-beneficiary-modal-wrapper.ant-modal
+  .ant-modal-body
+  [class*="input_floatingLabel"] {
+  border-left: 4px solid #fff;
+  border-right: 4px solid #fff;
+  transition: 0.2s ease top;
+  top: -6px;
+}
+
+.new-beneficiary-modal-wrapper.ant-modal
+  .ant-modal-body
+  [class*="select_ds-select__label"] {
+  border-left: 4px solid #fff;
+  border-right: 4px solid #fff;
+}
+
+.new-beneficiary-switch-name-wrapper {
+  margin-bottom: 15px;
+}
+.new-beneficiary-switch-name-wrapper > div {
+  width: 100%;
+}
+.new-beneficiary-switch-name-wrapper > div > span {
+  padding: 5px 0;
+  width: 50%;
+  text-align: center;
+}
+
+.new-beneficiary-switch-name-wrapper > div > span:last-child {
+  width: 0;
+}
+
+.new-beneficiary-loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.bene-info {
+  display: flex;
+  flex-direction: row;
+}
+.bene-info-text {
+  color: var(--font-secondary);
+  padding-top: 1px;
+  padding-left: 5px;
+}

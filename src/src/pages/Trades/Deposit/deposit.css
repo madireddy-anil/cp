@@ -1,0 +1,3 @@
+.steps-wrapper [class*="StepContent"] {
+  margin-top: 0;
+}
