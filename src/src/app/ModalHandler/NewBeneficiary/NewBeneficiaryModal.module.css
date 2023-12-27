@@ -1,0 +1,36 @@
+.NewBeneficiaryModal [class*="input-module"] {
+  margin-bottom: 0px;
+}
+
+.NewBeneficiaryModal [class*="ant-form-item-explain"] {
+  font-size: 10px;
+}
+.NewBeneficiaryModal [class*="ant-form-item-explain-error"] {
+  color: var(--red-900);
+}
+
+.NewBeneficiaryModal__switchName > div {
+  width: 100%;
+}
+.NewBeneficiaryModal__switchName > div {
+  width: 100%;
+}
+.NewBeneficiaryModal__switchName > div > span {
+  padding: 5px 0;
+  width: 50%;
+  text-align: center;
+}
+.NewBeneficiaryModal__switchName > div > span:last-child {
+  width: 0;
+}
+
+.NewBeneficiaryModal__info {
+  display: flex;
+  flex-direction: row;
+}
+
+.NewBeneficiaryModal__info-text {
+  color: var(--font-secondary);
+  padding-top: 1px;
+  padding-left: 5px;
+}

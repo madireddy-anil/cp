@@ -1,0 +1,36 @@
+.modal-lists {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-auto-rows: 20px;
+  grid-gap: 5px;
+}
+.modal-list {
+  font-size: 10px;
+  padding: 2px 5px;
+  border: 1px solid #eee;
+  border-radius: 7px;
+}
+.form__label--radioGp {
+  margin-bottom: 14px;
+}
+.upload-licence--card-wrapper {
+  margin-bottom: 20px;
+  width: 85%;
+}
+
+.uploaded-licence {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.uploaded-licence .licence-name {
+  width: 70%;
+}
+.action-icon .icon {
+  width: 10px;
+}
+.regulatory_info--wrapper
+  .ant-upload-list-text
+  .ant-upload-list-item-card-actions {
+  display: none;
+}

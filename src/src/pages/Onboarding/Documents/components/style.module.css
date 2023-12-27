@@ -1,0 +1,6 @@
+.custom-uploadlist--wrapper [class*="ant-upload ant-upload-drag"] {
+  display: none;
+}
+.custom-upload--wrapper [class*="ant-upload-list"] {
+  display: none;
+}

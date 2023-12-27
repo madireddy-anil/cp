@@ -1,0 +1,31 @@
+.account_settings__card__container {
+  background: #ffffff;
+  padding: 25px !important;
+  border: 1px solid #ebeef2;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  min-width: 450px;
+}
+
+.account_settings__body {
+  margin: 25px 0;
+  padding: 10px;
+  border: 1px solid #ebeef2;
+  border-radius: 10px;
+}
+.account_settings__content {
+  margin-bottom: 12px;
+  /* width: 100%;
+  padding: 18px;
+  border-bottom: 1px solid #ebeef2; */
+}
+.account_settings__content:last-child {
+  border: none;
+}
+/* .account_settings__content span {
+  word-break: break-all;
+} */
+.account_settings__content [class*="ds-icon-"] {
+  width: 14px !important;
+}

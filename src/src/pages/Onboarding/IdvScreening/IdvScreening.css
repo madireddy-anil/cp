@@ -1,0 +1,17 @@
+.upload__doc-wrapper {
+  padding: 40px;
+  border: 1px solid #ebeef2;
+  border-radius: 10px;
+}
+
+.ant-upload,
+.upload__doc-wrapper {
+  background-color: #fff !important;
+}
+
+.upload_doc_btn {
+  display: flex;
+}
+.upload_doc_btn button:nth-child(2n) {
+  margin-left: 20px;
+}

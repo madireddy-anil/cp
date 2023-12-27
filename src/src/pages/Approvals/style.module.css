@@ -1,0 +1,60 @@
+.approval__group--card {
+  border-radius: 10px;
+  margin-top: 18px;
+}
+.approval__group--card-disable {
+  border-radius: 10px;
+  margin-top: 18px;
+  opacity: 0.7;
+}
+.approval__users--card {
+  border-radius: 10px;
+  margin-top: -5px;
+  min-height: 50px;
+  max-height: 250px;
+  overflow-y: scroll;
+}
+.approval__queue--card {
+  border-radius: 10px;
+  margin: 0px 10px 15px 24px;
+}
+.approval__group--btn {
+  margin: 15px 0 8px 0;
+}
+.approval__btns {
+  display: flex;
+  margin: 15px 0px 10px 25px;
+}
+.approval__count {
+  margin: 9px 0px 10px 25px;
+}
+.approval__users {
+  margin: 8px 5px 0 0;
+}
+.approval__deactivate-ruleNote {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 13px;
+}
+.approval__footer-btn {
+  display: flex;
+  /* margin: 15px 0px 10px 25px; */
+}
+.approvers--names {
+  font-size: 11px;
+  font-weight: 400;
+}
+.approval__group--no-edit {
+  font-size: 11px;
+  color: #bbbbbc;
+  margin-left: 13px;
+  margin-top: 24px;
+}
+
+.approvers--counts {
+  font-size: 10px;
+}
+.approvers__title {
+  font-size: 11px;
+  font-weight: bold;
+}

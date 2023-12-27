@@ -1,0 +1,65 @@
+/* people css */
+
+.definition__wrapper {
+  width: 100%;
+}
+
+.definition__imptNote--header {
+  margin: 20px 0;
+}
+
+.definition__form {
+  margin-top: 40px;
+}
+
+.definiton__form--fields [class*="ant-form-item"] {
+  margin-bottom: 0;
+}
+
+.definition__success--wrapper {
+  display: inline-flex;
+  width: auto;
+  border-radius: 10px;
+  background-color: var(--green-100);
+  align-items: center;
+  margin-top: 20px;
+  padding-right: 10px;
+}
+
+.definition__success--icon {
+  padding: 10px;
+}
+
+.definition__success--text {
+  font-weight: 700;
+  padding-top: 14px;
+  text-align: center;
+  padding-right: 20px;
+}
+.definition__success--text::before {
+  content: "Email has been sent to ";
+  font-weight: normal;
+}
+.definition__success--text::after {
+  content: " to verify their identity.";
+  font-weight: normal;
+}
+
+.definition__bottom {
+  display: flex;
+  margin-top: 40px;
+}
+
+.definition__verificationStatus {
+  margin-right: 20px;
+}
+
+/* verification status css */
+
+.verificationStatus__wrapper {
+  width: 100%;
+}
+
+.verficationStatus__cardWrapper {
+  margin-top: 30px;
+}

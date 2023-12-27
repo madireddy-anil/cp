@@ -1,0 +1,12 @@
+.cc_start_btn {
+  text-decoration: none;
+  background-color: #2f80ed;
+  border: 1px solid #2f80ed;
+  color: #fff !important;
+  padding: 9px;
+  font-size: 14px;
+  border-radius: 27px;
+  display: block;
+  max-width: 235px;
+  margin: 0 auto;
+}

@@ -1,0 +1,151 @@
+{
+  "dev": {
+    "ENVIRONMENT": "dev",
+    "AUTH0_CLIENT_ID": {
+      "type": "ssm",
+      "value": "/FE/AUTH0_CLIENT_ID"
+    },
+    "REACT_APP_ENV": "dev",
+    "REACT_APP_AUTH_API_URL": "https://cc-api.dev.payconstruct.com/v1",
+    "REACT_APP_CMS_API_URL": "https://cms-api.dev.payconstruct.com",
+    "REACT_APP_GPP_API_URL": "https://gpp-api.dev.payconstruct.com/v1",
+    "REACT_APP_BENEFICIARY_API_URL": "https://pc-beneficiary.dev.payconstruct.com",
+    "REACT_APP_TRADES_API_URL": "https://pp-efx-orders.dev.payperform.com",
+    "REACT_APP_ROUTES_API_URL": "https://pp-efx-routes.dev.payperform.com",
+    "REACT_APP_FINANCE_API_URL": "https://pp-efx-finance.dev.payperform.com",
+    "REACT_APP_TERMS_SERVICES_DOC_URL": "https://cc-terms-service-document.dev.payconstruct.com/v1",
+    "REACT_APP_AUTH0_CLIENT_ID": {
+      "type": "ssm",
+      "value": "/FE/AUTH0_CLIENT_ID"
+    },
+    "REACT_APP_AUTH0_AUDIENCE": "https://cc-api.dev.payconstruct.com",
+    "REACT_APP_AUTH0_DOMAIN": "client-connect-dev.eu.auth0.com",
+    "REACT_APP_AUTH0_REDIRECTION_URL": "https://app.dev.getorbital.com/verify-authorization",
+    "REACT_APP_AUTH0_SCOPE": "openid profile email address phone offline_access enroll read:authenticators remove:authenticators",
+    "REACT_APP_LOGOUT_URL": "https://app.dev.getorbital.com/login",
+    "REACT_APP_REVOKE_TOKEN_API_URL": "https://cc-token.dev.getorbital.com",
+    "REACT_APP_CHAT_CHANNEL": "orbital_chat_support_channel",
+    "REACT_APP_PUSHER_APP_ID": {
+      "type": "ssm",
+      "value": "/FE/PUSHER_APP_ID"
+    },
+    "REACT_APP_PUSHER_CLUSTER": "eu",
+    "REACT_APP_CRYPTO_ECOMMERCE_MFE_URL": "https://crypto-commerce-ui.dev.getorbital.io",
+    "REACT_APP_FEATURE_FLAG_URL": "https://flags.dev.paymero.io",
+    "REACT_APP_NEW_PAYMENT_MFE_URL": "https://new-payment.dev.getorbital.com",
+    "REACT_APP_PAYMENTS_MFE_URL": "https://payments.dev.getorbital.com",
+    "REACT_APP_LAUNCH_DARKLY_KEY": {
+      "type": "ssm",
+      "value": "/FE/LAUNCH_DARKLY_KEY"
+    },
+    "REACT_APP_AUTH_KEY": {
+      "type": "ssm",
+      "value": "/FE/AUTH_KEY"
+    }
+  },
+  "tst": {
+    "REACT_APP_ENV": "tst",
+    "REACT_APP_PUSHER_CLUSTER": "eu",
+    "REACT_APP_AUTH_API_URL": "https://cc-api.tst.payperform.com/v1",
+    "REACT_APP_CMS_API_URL": "https://cms-api.tst.payperform.com",
+    "REACT_APP_GPP_API_URL": "https://gpp-api.tst.payconstruct.com/v1",
+    "REACT_APP_BENEFICIARY_API_URL": "https://pc-beneficiary.tst.payconstruct.com",
+    "REACT_APP_TRADES_API_URL": "https://pp-efx-orders.tst.payperform.com",
+    "REACT_APP_ROUTES_API_URL": "https://pp-efx-routes.tst.payperform.com",
+    "REACT_APP_FINANCE_API_URL": "https://pp-efx-finance.tst.payperform.com",
+    "REACT_APP_TERMS_SERVICES_DOC_URL": "https://cc-terms-service-document.tst.payperform.com/v1",
+    "REACT_APP_AUTH0_CLIENT_ID": {
+      "type": "ssm",
+      "value": "/FE/AUTH0_CLIENT_ID"
+    },
+    "REACT_APP_AUTH0_AUDIENCE": "https://cc-api.tst.payconstruct.com",
+    "REACT_APP_AUTH0_DOMAIN": "tst-client-connect.eu.auth0.com",
+    "REACT_APP_AUTH0_REDIRECTION_URL": "https://app.tst.getorbital.com/verify-authorization",
+    "REACT_APP_AUTH0_SCOPE": "openid profile email address phone offline_access enroll read:authenticators remove:authenticators",
+    "REACT_APP_LOGOUT_URL": "https://app.tst.getorbital.com/login",
+    "REACT_APP_REVOKE_TOKEN_API_URL": "https://cc-token.tst.getorbital.com",
+    "REACT_APP_CHAT_API_URL": "https://cc-chat.tst.getorbital.com",
+    "REACT_APP_APPROVAL_API_URL": "https://cc-approvals.tst.getorbital.com",
+    "REACT_APP_PAYMENT_API_URL": "https://pay-engine.tst.getorbital.com",
+    "REACT_APP_CHAT_CHANNEL": "orbital_chat_support_channel",
+    "REACT_APP_PUSHER_APP_ID": {
+      "type": "ssm",
+      "value": "/FE/PUSHER_APP_ID"
+    },
+    "REACT_APP_PERSIST_SECRET_KEY": {
+      "type": "ssm",
+      "value": "/cc/REACT_PERSIST_ENCRYPT_KEY"
+    },
+    "REACT_APP_UPLOAD_FILES_API_URL": "https://pay-file-manager.tst.getorbital.com",
+    "REACT_APP_CRYPTO_ECOMMERCE_MFE_URL": "https://crypto-commerce-ui.tst.getorbital.io",
+    "REACT_APP_FEATURE_FLAG_URL": "https://flags.tst.paymero.io",
+    "REACT_APP_NEW_PAYMENT_MFE_URL": "https://new-payment.tst.getorbital.com",
+    "REACT_APP_PAYMENTS_MFE_URL": "https://payments.tst.getorbital.com",
+    "REACT_APP_LAUNCH_DARKLY_KEY": {
+      "type": "ssm",
+      "value": "/FE/LAUNCH_DARKLY_KEY"
+    },
+    "REACT_APP_AUTH_KEY": {
+      "type": "ssm",
+      "value": "/FE/AUTH_KEY"
+    },
+    "SENTRY_AUTH_TOKEN": {
+      "type": "ssm",
+      "value": "/FE/SENTRY_AUTH_TOKEN"
+    }
+  },
+  "prd": {
+    "REACT_APP_ENV": "prd",
+    "REACT_APP_PUSHER_CLUSTER": "eu",
+    "REACT_APP_AUTH_API_URL": "https://cc-api.prd.payperform.com/v1",
+    "REACT_APP_CMS_API_URL": "https://cms-api.prd.payperform.com",
+    "REACT_APP_GPP_API_URL": "https://gpp-api.prd.payconstruct.com/v1",
+    "REACT_APP_BENEFICIARY_API_URL": "https://pp-beneficiary.prd.payperform.com",
+    "REACT_APP_TRADES_API_URL": "https://pp-efx-orders.prd.payperform.com",
+    "REACT_APP_ROUTES_API_URL": "https://pp-efx-routes.prd.payperform.com",
+    "REACT_APP_FINANCE_API_URL": "https://pp-efx-finance.prd.payperform.com",
+    "REACT_APP_TERMS_SERVICES_DOC_URL": "https://cc-terms-service-document.prd.payperform.com/v1",
+    "REACT_APP_AUTH0_CLIENT_ID": {
+      "type": "ssm",
+      "value": "/FE/AUTH0_CLIENT_ID"
+    },
+    "REACT_APP_AUTH0_AUDIENCE": "https://cc-api.prd.payconstruct.com",
+    "REACT_APP_AUTH0_DOMAIN": "auth.getorbital.com",
+    "REACT_APP_AUTH0_REDIRECTION_URL": "https://app.getorbital.com/verify-authorization",
+    "REACT_APP_AUTH0_SCOPE": "openid profile email address phone offline_access enroll read:authenticators remove:authenticators",
+    "REACT_APP_LOGOUT_URL": "https://app.getorbital.com/login",
+    "REACT_APP_REVOKE_TOKEN_API_URL": "https://cc-token.getorbital.com",
+    "REACT_APP_APPROVAL_API_URL": "https://cc-approvals.getorbital.com",
+    "REACT_APP_CHAT_API_URL": "https://cc-chat.prd.getorbital.com",
+    "REACT_APP_PAYMENT_API_URL": "https://pay-engine.getorbital.com",
+    "REACT_APP_PUSHER_APP_ID": {
+      "type": "ssm",
+      "value": "/FE/PUSHER_APP_ID"
+    },
+    "REACT_APP_PERSIST_SECRET_KEY": {
+      "type": "ssm",
+      "value": "/cc/REACT_PERSIST_ENCRYPT_KEY"
+    },
+    "REACT_APP_UPLOAD_FILES_API_URL": "https://pay-file-manager.getorbital.com",
+    "REACT_APP_CRYPTO_ECOMMERCE_MFE_URL": "https://crypto-commerce-ui.getorbital.io",
+    "REACT_APP_FEATURE_FLAG_URL": "https://flags.prd.paymero.io",
+    "REACT_APP_NEW_PAYMENT_MFE_URL": "https://new-payment.getorbital.com",
+    "REACT_APP_PAYMENTS_MFE_URL": "https://payments.getorbital.com",
+    "REACT_APP_LAUNCH_DARKLY_KEY": {
+      "type": "ssm",
+      "value": "/FE/LAUNCH_DARKLY_KEY"
+    },
+    "REACT_APP_AUTH_KEY": {
+      "type": "ssm",
+      "value": "/FE/AUTH_KEY"
+    },
+    "SENTRY_AUTH_TOKEN": {
+      "type": "ssm",
+      "value": "/FE/SENTRY_AUTH_TOKEN"
+    },
+    "REACT_APP_MIX_PANELS": {
+      "type": "ssm",
+      "value": "/FE/REACT_APP_MIX_PANELS"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+.org {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-image: url("https://brand.getorbital.com/orbital-banner-new.jpg");
+}
+
+.org__bg--img {
+  width: 100%;
+  /* height: 50%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.org__bg--logo {
+  position: absolute;
+  top: 30px;
+  padding-left: 20px;
+}
+
+.org__card--container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* height: 100%; */
+}
+
+.org__card--wrapper {
+  width: auto;
+  height: auto;
+  background-color: var(--white);
+  position: absolute;
+  top: 25%;
+  border-radius: 19px;
+  padding: 22px 50px 45px 50px;
+  min-width: 390px;
+}
+
+.org__card--header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.org__card--title {
+  font-size: 16px;
+  color: var(--neutral-700);
+}
+
+.org__card--greet {
+  font-size: 14px;
+  color: var(--font-secondary);
+  padding: 15px;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.org__card--radio {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.org__card--radioHelperText {
+  font-size: 14px;
+  color: var(--font-secondary);
+  padding: 0px 20px 20px 20px;
+  text-align: center;
+}
+
+.org__card--dob {
+  padding: 0 20px;
+}
+
+.org__card--clientAddress {
+  padding: 0px 20px 0px 20px;
+}
+
+.org__card--clientAddressTitle {
+  font-size: 14px;
+  font-weight: bold;
+}
+.org__card--ClientPostal {
+  display: grid;
+  /* grid-template-columns: repeat(2, 49%); */
+  grid-template-rows: 100%;
+  grid-gap: 8px;
+}
+
+.org__card--verification {
+  padding: 0px 20px 20px 20px;
+}
+
+.org__card--verificationTitle {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.org [class*="dd-btn"] {
+  width: 100%;
+}
+
+.org__card--verifyBtn {
+  width: 100%;
+  display: flex;
+  justify-content: stretch;
+  padding: 0px 20px 20px 20px;
+}
+
+.org__list {
+  min-height: 30px;
+  max-height: 250px;
+  overflow-y: scroll;
+}
+
+@media (max-width: 568px) {
+  .org__bg {
+    display: none;
+  }
+  .org__card--wrapper {
+    position: relative;
+    top: 0;
+  }
+}
